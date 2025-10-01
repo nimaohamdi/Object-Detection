@@ -1,6 +1,6 @@
 # 🖼️ Object Detection with YOLOv8
 
-![Object Detection Banner] (https://github.com/nimaohamdi/Object-Detection/blob/main/image.jpg)
+![Object Detection Banner](https://github.com/nimaohamdi/Object-Detection/blob/main/image.jpg)
 
 ---
 
@@ -25,6 +25,7 @@ It can detect multiple objects in **images, videos, and live webcam feeds**, dra
 - [YOLOv8](https://ultralytics.com/) (`ultralytics`)  
 - OpenCV  
 - Matplotlib  
+- imageio  
 
 ---
 
@@ -32,7 +33,8 @@ It can detect multiple objects in **images, videos, and live webcam feeds**, dra
 Install the required Python packages:
 
 ```bash
-pip install ultralytics opencv-python matplotlib
+pip install ultralytics opencv-python matplotlib imageio
+
 
 🔹 How to Run
 Image Detection
