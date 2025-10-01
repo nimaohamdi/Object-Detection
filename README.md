@@ -1,6 +1,6 @@
 # 🖼️ Object Detection with YOLOv8
 
-![Object Detection Banner] https://github.com/nimaohamdi/Object-Detection/blob/main/image.jpg
+![Object Detection Banner] (https://github.com/nimaohamdi/Object-Detection/blob/main/image.jpg)
 
 ---
 
