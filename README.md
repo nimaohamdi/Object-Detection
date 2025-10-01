@@ -1,6 +1,5 @@
 # Object Detection with YOLOv8
 
-![Object Detection Banner](images/sample_banner.jpg)
 
 ---
 
@@ -42,48 +41,6 @@ The accuracy of YOLOv8 varies across its different model sizes (nano, small, med
 
 For a visual comparison, see the [accuracy chart](#accuracy-chart).
 
-### Accuracy Chart
-```json
-{
-  "type": "bar",
-  "data": {
-    "labels": ["YOLOv8n", "YOLOv8s", "YOLOv8m", "YOLOv8l", "YOLOv8x"],
-    "datasets": [{
-      "label": "mAP50-95 (%)",
-      "data": [37.3, 44.0, 50.2, 53.4, 54.7],
-      "backgroundColor": ["#FF6B6B", "#4ECDC4", "#45B7D1", "#96CEB4", "#FFEAA7"],
-      "borderColor": ["#FF6B6B", "#4ECDC4", "#45B7D1", "#96CEB4", "#FFEAA7"],
-      "borderWidth": 1
-    }]
-  },
-  "options": {
-    "scales": {
-      "y": {
-        "beginAtZero": true,
-        "max": 60,
-        "title": {
-          "display": true,
-          "text": "mAP50-95 (%)"
-        }
-      },
-      "x": {
-        "title": {
-          "display": true,
-          "text": "YOLOv8 Models"
-        }
-      }
-    },
-    "plugins": {
-      "legend": {
-        "display": false
-      },
-      "title": {
-        "display": true,
-        "text": "Comparison of mAP50-95 Accuracy for YOLOv8 Models"
-      }
-    }
-  }
-}
 
 🔹 How to Run
 Image Detection
